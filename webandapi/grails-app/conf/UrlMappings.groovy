@@ -7,7 +7,8 @@ class UrlMappings {
         callback: "/callback"(controller: 'callback')
         home: "/portal/home"(controller: 'home')
 
-
+        publicapi: "/publicapi"(controller: 'api', action: 'publicapi')
+        api: "/api"(controller: 'api', action: 'api')
 
         "/$controller/$action?/$id?(.$format)?"{
             constraints {

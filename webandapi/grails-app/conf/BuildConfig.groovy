@@ -58,6 +58,8 @@ grails.project.dependency.resolution = {
         compile 'org.springframework.security:spring-security-config:4.0.2.RELEASE'
         compile 'org.springframework.security:spring-security-web:4.0.2.RELEASE'
 
+        compile 'com.auth0:auth0-spring-security-api:1.0.0-rc.2'
+
     }
 
     plugins {
